@@ -1,9 +1,41 @@
 /* test comments  */
 
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
 
-.test p:nth-child(1) {
-  background: red;
 }
+.header{
+  text-align: center;
+  padding: 15px ;
+  border-bottom: 1px solid #ccc;
 
 
+}
+.header_title{
+  margin: 0;
+  background-color: red;
+  display: inline-block;
+  padding: 5px 15px;
+}
+.container{
+  width: 100%;
+  float: left;
+}
+.sidebar{
+  margin-right: 30px;
+  float: left;
+  width: 30%;
+  background: #cccccc;
+}
+.main{
+  float: right;
+  width: calc(70% - 30px);
+  background: #cccccc;
+}
+.footer{
+  float: left;
+  width: 100%;
 
+}
